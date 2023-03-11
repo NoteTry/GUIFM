@@ -11,6 +11,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GUIFM.GUI", "GUI\GUIFM.GUI\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GUIFM.Shared", "Core\GUIFM.Shared\GUIFM.Shared.csproj", "{6890DF18-4138-4C3A-8A0D-261D3F9EEBFB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Addons", "Addons", "{4714BCD5-6567-4E1B-85ED-C36A000099A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveFile", "..\addons\RemoveFile\RemoveFile\RemoveFile.csproj", "{1F52130D-5355-4FFF-9312-30BC8F0BE427}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RenameF", "..\addons\RenameF\RenameF\RenameF.csproj", "{BDA1F9EE-EEA6-449E-BB6E-2010ADC76326}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +31,14 @@ Global
 		{6890DF18-4138-4C3A-8A0D-261D3F9EEBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6890DF18-4138-4C3A-8A0D-261D3F9EEBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6890DF18-4138-4C3A-8A0D-261D3F9EEBFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F52130D-5355-4FFF-9312-30BC8F0BE427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F52130D-5355-4FFF-9312-30BC8F0BE427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F52130D-5355-4FFF-9312-30BC8F0BE427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F52130D-5355-4FFF-9312-30BC8F0BE427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDA1F9EE-EEA6-449E-BB6E-2010ADC76326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA1F9EE-EEA6-449E-BB6E-2010ADC76326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA1F9EE-EEA6-449E-BB6E-2010ADC76326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA1F9EE-EEA6-449E-BB6E-2010ADC76326}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +46,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{AA0A5311-A1EA-4C54-849B-EA12753F55C2} = {C03FBF75-08AE-4738-B3C9-1FB17879A65D}
 		{6890DF18-4138-4C3A-8A0D-261D3F9EEBFB} = {1932AA64-C507-4CFB-975F-3DAE1320A85D}
+		{1F52130D-5355-4FFF-9312-30BC8F0BE427} = {4714BCD5-6567-4E1B-85ED-C36A000099A8}
+		{BDA1F9EE-EEA6-449E-BB6E-2010ADC76326} = {4714BCD5-6567-4E1B-85ED-C36A000099A8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C760D5FD-95A6-4AB3-8F69-5DAA62D49D3C}
